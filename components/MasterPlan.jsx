@@ -7,7 +7,7 @@ const plans = [
     label: '3 BHK East/West Facing', 
     img: masterplanImages.bhk3 || masterplanImages.masterPlan,
     details: {
-        saleableArea: '1875 Sq.ft. ~ 2660 Sq.ft.'
+        saleableArea: '1875 Sq.ft. ~ 2305 Sq.ft.'
     }
   },
   { 
