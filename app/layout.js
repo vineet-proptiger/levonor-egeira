@@ -43,14 +43,14 @@ const nephilm = localFont({
 
 export const metadata = {
   metadataBase: new URL('https://levonoregeirakollur.com'),
-  title: 'Levonor Egeira Near ORR Exit 2, Radial Rd. 7 | Luxury 3 BHK Hyderabad',
-  description: "Levonor Egeira in Near ORR Exit 2, Radial Rd. 7, Kollur, Hyderabad offers luxury 3 BHK homes with world-class amenities. Enquire now for brochure!",
+  title: 'Levonor Egeira Kollur | Luxury 3 BHK Flats in Hyderabad',
+  description: "Discover Levonor Egeira in Kollur, Hyderabad. Premium 3 BHK luxury residences starting at ₹1.66 Cr with world-class amenities near ORR Exit 2.",
   alternates: {
     canonical: 'https://levonoregeirakollur.com/',
   },
   openGraph: {
-    title: 'Levonor Egeira Near ORR Exit 2, Radial Rd. 7 | Luxury 3 BHK Hyderabad',
-    description: "Levonor Egeira in Near ORR Exit 2, Radial Rd. 7, Kollur, Hyderabad offers luxury 3 BHK homes with world-class amenities. Enquire now for brochure!",
+    title: 'Levonor Egeira Kollur | Luxury 3 BHK Flats in Hyderabad',
+    description: "Discover Levonor Egeira in Kollur, Hyderabad. Premium 3 BHK luxury residences starting at ₹1.66 Cr with world-class amenities near ORR Exit 2.",
     url: 'https://levonoregeirakollur.com/',
     siteName: 'Levonor Egeira',
     images: [
@@ -66,8 +66,8 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Levonor Egeira Near ORR Exit 2, Radial Rd. 7 | Luxury 3 BHK Hyderabad',
-    description: "Levonor Egeira in Near ORR Exit 2, Radial Rd. 7, Kollur, Hyderabad offers luxury 3 BHK homes with world-class amenities. Enquire now for brochure!",
+    title: 'Levonor Egeira Kollur | Luxury 3 BHK Flats in Hyderabad',
+    description: "Discover Levonor Egeira in Kollur, Hyderabad. Premium 3 BHK luxury residences starting at ₹1.66 Cr with world-class amenities near ORR Exit 2.",
     images: ['/images/hero/banner.webp'],
   },
   icons: {
