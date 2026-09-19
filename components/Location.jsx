@@ -10,6 +10,10 @@ const locationLandmarks = [
   { name: 'Gachibowli IT Hub', dist: '20 mins' },
   { name: 'Financial District', dist: '25 mins' },
   { name: 'Rajiv Gandhi International Airport', dist: '45 mins' },
+  { name: 'Samashti International School', dist: '3 Km' },
+  { name: 'Aksha Hospitals', dist: '11.7 Km' },
+  { name: 'University of Hyderabad', dist: '13 Km' },
+  { name: 'Sarath City Capital Mall', dist: '16.5 Km' },
 ]
 
 const Location = () => {
