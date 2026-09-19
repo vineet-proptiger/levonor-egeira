@@ -9,9 +9,9 @@ const F_JOST = "var(--font-jost), Montserrat, sans-serif";
 const units = [
   {
     type: "3 BHK",
-    subtitle: "LUXURY RESIDENCES",
+    subtitle: "East/West Facing",
     tagline: "Spacious & Elegant",
-    size: "1875 Sq.ft. ~ 2660 Sq.ft.",
+    size: "1875 Sq.ft. ~ 2305 Sq.ft.",
     price: "₹ 1.66 Cr *",
     priceSub: "Starting At",
     btnText: "GET DETAILS",
@@ -21,6 +21,23 @@ const units = [
       "Seamless Connectivity",
     ],
     isPopular: true,
+    crown: true,
+  },
+  {
+    type: "3 BHK",
+    subtitle: "West Facing",
+    tagline: "Spacious & Elegant",
+    size: "2425 Sq.ft. ~ 2660 Sq.ft.",
+    price: "Ask For Price",
+    priceSub: "PRICE ON REQUEST",
+    btnText: "GET DETAILS",
+    features: [
+      "Unlock Pricing & Floor Plans",
+      "Prime Radial Rd. 7 Location",
+      "Seamless Connectivity",
+    ],
+    isPopular: true,
+    crown: false,
   }
 ];
 
@@ -57,7 +74,7 @@ const Pricing = ({ setIsOpen }) => {
         </div>
 
         {/* Minimalist Arch Pedestal Cards Grid */}
-        <div className="grid grid-cols-1 gap-8 max-w-[360px] mx-auto items-stretch justify-items-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-[760px] mx-auto items-stretch justify-items-center">
           {units.map((unit, idx) => (
             <div
               key={idx}
@@ -71,7 +88,7 @@ const Pricing = ({ setIsOpen }) => {
               }`}
             >
               {/* Popular Crown Tag */}
-              {unit.isPopular && (
+              {unit.crown && (
                 <div className="absolute -top-3.5 left-1/2 -translate-x-1/2 bg-gradient-to-r from-[#B88A44] via-[#946B2D] to-[#B88A44] text-white text-[10.5px] font-extrabold px-5 py-1.5 rounded-full whitespace-nowrap z-20 tracking-wider shadow-md flex items-center gap-1.5 uppercase ring-2 ring-white">
                   <Sparkles size={11} className="text-yellow-300" />
                   Most Preferred Choice
@@ -102,7 +119,7 @@ const Pricing = ({ setIsOpen }) => {
                   {unit.type}
                 </div>
 
-                <span className="text-[11px] font-bold text-[#B88A44] uppercase tracking-widest mt-1">
+                <span className="text-[11px] text-center font-extrabold text-[#8A6327] uppercase tracking-widest mt-1">
                   {unit.subtitle}
                 </span>
               </div>

@@ -4,10 +4,17 @@ import { masterplanImages } from '../lib/images'
 
 const plans = [
   { 
-    label: '3 BHK Residence', 
+    label: '3 BHK East/West Facing', 
     img: masterplanImages.bhk3 || masterplanImages.masterPlan,
     details: {
         saleableArea: '1875 Sq.ft. ~ 2660 Sq.ft.'
+    }
+  },
+  { 
+    label: '3 BHK West Facing', 
+    img: masterplanImages.bhk3 || masterplanImages.masterPlan,
+    details: {
+        saleableArea: '2425 Sq.ft. ~ 2660 Sq.ft.'
     }
   }
 ]
@@ -69,7 +76,7 @@ const MasterPlan = ({ setIsOpen }) => {
           )}
 
           {activeTab === 'floor' && (
-            <div className="grid grid-cols-1 gap-8 max-w-[400px] mx-auto">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-[800px] mx-auto">
               {plans.map((plan, idx) => (
                 <div key={idx} className="bg-white rounded-md overflow-hidden shadow-[0_5px_15px_rgba(0,0,0,0.1)] transition-transform hover:-translate-y-1" data-aos="fade-up" data-aos-duration="1000" data-aos-delay={idx * 100}>
                   <a onClick={() => setIsOpen && setIsOpen(true)} className="cursor-pointer block relative h-[260px] overflow-hidden group bg-[#fdfbf7] flex items-center justify-center p-4">
