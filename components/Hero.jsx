@@ -656,7 +656,7 @@ const Hero = ({ setIsOpen }) => {
         <div className="hero-bullets" style={{ marginBottom: '24px', display: 'flex', flexDirection: 'column', gap: '8px' }}>
           {[
             "Avail Spot Booking Offers",
-            "Book Now at Just ₹5 Lakhs*",
+            "Book Now at Just ₹ 5 Lakhs*",
             "A Near-Possession Opportunity in Kollur",
             "Possession by Dec 2026"
           ].map((text, i) => (
@@ -684,7 +684,7 @@ const Hero = ({ setIsOpen }) => {
         {/* Price Line */}
         <p className="hero-price-line w-full text-center lg:text-left" style={{ marginBottom: '0px' }}>
           <span className="hero-price-title whitespace-nowrap">
-            Luxury/Spacious 3 BHK Residences Price Starts
+            Luxury/Spacious 3 BHK Residences
           </span>
           <span className="hero-price-badge mt-2 lg:mt-0 lg:ml-3">
             <img 
